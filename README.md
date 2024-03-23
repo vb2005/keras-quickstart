@@ -27,25 +27,31 @@
 
 | Номер работы | Название | Статус | Ссылка на Google Colab | Ссылка на Github |
 | --- | --- | --- | --- | --- | 
-| 000 | Установка необходимых библиотек | ![](https://img.shields.io/badge/Доступен-1.0-green) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-q4hGq6QODhrjq6yAVCpuDRdI8hkKzBb?usp=sharing) |  | 
-| 001 | Основы разработки на Python |  ![](https://img.shields.io/badge/Доступен-1.3-green) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QMoYV_dpBdHvVEOabeLT3QNWDqzDdPck?usp=sharing)  |  | 
+| 000 | Установка необходимых библиотек | ![](https://img.shields.io/badge/Доступен-1.0-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-q4hGq6QODhrjq6yAVCpuDRdI8hkKzBb?usp=sharing) |  | 
+| 001 | Основы разработки на Python |  ![](https://img.shields.io/badge/Доступен-1.3-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QMoYV_dpBdHvVEOabeLT3QNWDqzDdPck?usp=sharing)  |  | 
 | 002 | Анализ данных в Pandas. Очистка и преобразования |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xXXBWDnXK9_N6X5F55Uj0Kah6EEZmm3g?usp=sharing)  |  | 
 | 003 | Графики и визуализация Seaborn |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sNjZVGEOV8zJUB0h9yZC7xWYhV6aT4HZ?usp=sharing)  |  |  
 | 004 | Регрессия. Линия, экспонента, полином |  ![](https://img.shields.io/badge/В%20разработке-brown) |   |   | 
 | 005 | Анализ данных. Кластеризация, Desigion Tree, SVM |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
-| 006 | О нейронных сетях. YOLO |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WnPk6cbNCq9VlUWw3OLtdyG6TbYk6PYH?usp=sharing)  |  |
 | 007 | Перцептрон. Строим на нём линейную и полиномиальную регрессию |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qQmrlzPdIMbQTh-JA5XsgPObwbD_cQ3B?usp=sharing)  |  |
 | 008 | Перцептрон. Диагностика ЭКГ |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kgEwRit4VszisgqHo-F1mx6QGeApkY1O?usp=sharing)  |  |
 | 009 | Перцептрон. Проблема выбора функций активации, расчёт числа слоёв |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
 | 010 | Перцептрон. Классификация MNIST |  ![](https://img.shields.io/badge/В%20разработке-brown) |
 | 011 | Работа с изображениями. Загрузка преобразование |  ![](https://img.shields.io/badge/В%20разработке-brown) |
-| 012 | Свёрточные сети. Основы |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10HK0G9yIEtdINHlyGu3jVdfvCsucCGO3?usp=sharing)  |  |
+| 012 | Свёрточные сети. Основы |  ![](https://img.shields.io/badge/Доступен-2.1-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10HK0G9yIEtdINHlyGu3jVdfvCsucCGO3?usp=sharing)  |  |
 | 013 | Глубокие свёрточные модели |  ![](https://img.shields.io/badge/В%20разработке-brown) |
-| 014 | Сегментация на изображениях |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KTbSO0A7_7l6JF-0q4ntMOGZ9_rNTPej?usp=sharing)  |  |
+| 014 | Сегментация на изображениях |  ![](https://img.shields.io/badge/Доступен-2.0-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KTbSO0A7_7l6JF-0q4ntMOGZ9_rNTPej?usp=sharing)  |  |
 | 015 | Экспорт моделей в ONNX/TFlite. Запуск на C# |  ![](https://img.shields.io/badge/В%20разработке-brown) |
-| 016 | Сети с памятью. LSTM. Анализ текста | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 | 
+| 016 | Сети с памятью. LSTM. Анализ текста | ![](https://img.shields.io/badge/В%20разработке-brown) |  |  | 
 | 017 | Генеративно-состязательные сети |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pbHWMo9JJu_GPg963I6Rp_TvVwb1Qg07?usp=sharing)  |  |
-| 018 | Генетические алгоритмы | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 | 
+| 018 | Генетические алгоритмы | ![](https://img.shields.io/badge/В%20разработке-brown) |   |   | 
 | 019 | EM-алгоритм | ![](https://img.shields.io/badge/В%20разработке-brown) |  |  | 
-|  E1 | Обучение простейшего классификатора | 1 | 1 | 1 | 
-|  E2 | Перенос модели на C++ | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 |
+
+Работы вне рамок основного курса
+
+
+| Номер работы | Название | Статус | Ссылка на Google Colab | Ссылка на Github |
+| --- | --- | --- | --- | --- | 
+|  E1 | Обучение простейшего классификатора | ![](https://img.shields.io/badge/Доступен-3.1-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WnPk6cbNCq9VlUWw3OLtdyG6TbYk6PYH?usp=sharing)  | ![https://github.com/vb2005/keras-quickstart/tree/main/E1.%20Обучение%20простейшего%20классификатора](https://img.shields.io/badge/Перейти-gray?logo=github) |
+|  E2 | Перенос модели на C++ | ![](https://img.shields.io/badge/В%20разработке-brown) |   |   |
+|  E3 | Ultralytics -- Детектор объектов на YOLO |  ![](https://img.shields.io/badge/Доступен-1.1-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WnPk6cbNCq9VlUWw3OLtdyG6TbYk6PYH?usp=sharing)  |  ![https://github.com/vb2005/keras-quickstart/tree/main/E3.%20Детектор%20объектов%20на%20YOLO](https://img.shields.io/badge/Перейти-gray?logo=github) |
