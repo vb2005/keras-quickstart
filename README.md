@@ -1,16 +1,16 @@
 # Основы ML
 
 Данный курс предназначен для студентов и начинающих специалистов в области AI/ML. 
-В ходе курса мы познакомимся с языком Python, научимся обрабатывать данные, выполнять их очистку, искать аномалии, зависимости, делать их визуализацию, и, естественно, обрабатывать эти данных при помощи технологий искуственных нейронных сетей. 
+В ходе курса мы познакомимся с языком Python, научимся обрабатывать данные, выполнять их очистку, искать аномалии, зависимости, делать их визуализацию, и, естественно, обрабатывать эти данных при помощи технологий искусственных нейронных сетей. 
 
 Требуемые входные данные:
 1. Знание одного из языков программирования на уровне не ниже Junior (желателен опыт работы с Python)
-2. Понимание основ мат.анализа (производная, градиент, тригонометрия)
-3. Понимание типов данных ЭВМ, и способов представления азличных данных
+2. Понимание основ математического анализа (производная, градиент, тригонометрия)
+3. Понимание типов данных ЭВМ, и способов представления различных данных
 4. Умение работать с командной строкой
 
 Требуемые характеристики ПК (для офлайн работы):
-1. Процессор с архитектурой x86, предпочтительнее последние поколения (Intel Core i5/i7/i9/Xeon, AMD Ryzen 5/7 )
+1. Процессор с архитектурой x86, предпочтительнее последние поколения (Intel Core i5/i7/i9/Xeon, AMD Ryzen 5/7)
 2. Оперативная память от 8 Гб и выше
 3. Свободное место на диске (предпочтительно SSD) от 15 ГБ
 4. Microsoft Windows 10 x64
@@ -21,31 +21,31 @@
 2. Аккаунт Google и свободное место на Google Drive (хотя бы несколько МБ)
 
 # О формате работ
-Работы сделаны по системе "Ready to Run". Они представляют собой готовые проекты с кодом, которые достаточно просто запустить. Изменяя датасет вы сможете легко адапировать различные архитектуры под свои задачи. При этом, модели в этих работах можно изменять и более грубоко оценивать поведение моделей при их модификации.
+Работы сделаны по системе "Ready to Run". Они представляют собой готовые проекты с кодом, которые достаточно просто запустить. Изменяя датасет вы сможете легко адаптировать различные архитектуры под свои задачи. При этом, модели в этих работах можно изменять и более глубоко оценивать поведение моделей при их модификации.
 
 # Cписок работ
 
 | Номер работы | Название | Статус | Ссылка на Google Colab | Ссылка на Github |
 | --- | --- | --- | --- | --- | 
-| 000 | Установка необходмых библиотек | ![](https://img.shields.io/badge/Доступен-1.0.3-green) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-q4hGq6QODhrjq6yAVCpuDRdI8hkKzBb?usp=sharing) |  | 
-| 001 | Основы разработки на Python | 1 | 1 | 1 | 
-| 002 | Анализ данных в Pandas. Очистка и преобразования | 1 | 1 | 1 | 
-| 003 | Графики и визуализация Seaborn | ![](https://img.shields.io/badge/Готовится%20описание-orange)  |  | 1 | 
-| 004 | Регрессия. Линия, экспонента, полином | 1 | 1 | 1 | 
-| 005 | Анализ данных. Кластеризация, Desigion Tree, SVM | 1 | 1 | 1 | 
-| 006 | О нейронных сетях. YOLO | 1 | 1 | 1 | 
-| 007 | Перцепторн. Строим на нём линейную и полиномиальную регрессию | 1 | 1 | 1 | 
-| 008 | Перцепторн. Диагностика ЭКГ | 1 | 1 | 1 | 
-| 009 | Перцепторн. Проблема выбора функций активации, расчёт числа слоёв | 1 | 1 | 1 | 
-| 010 | Перцептрон. Классификация MNIST | 1 | 1 | 1 | 
-| 011 | Работа с изображениями. Загрузка преобразование | 1 | 1 | 1 | 
-| 012 | Свёрточные сети. Основы | 1 | 1 | 1 | 
-| 013 | Глубокие свёрточные модели | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 | 
-| 014 | Сегментация на изображениях | 1 | 1 | 1 | 
-| 015 | Экспорт моделей в ONNX/TFlite. Запуск на C# | 1 | 1 | 1 | 
+| 000 | Установка необходимых библиотек | ![](https://img.shields.io/badge/Доступен-1.0-green) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-q4hGq6QODhrjq6yAVCpuDRdI8hkKzBb?usp=sharing) |  | 
+| 001 | Основы разработки на Python |  ![](https://img.shields.io/badge/Доступен-1.3-green) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QMoYV_dpBdHvVEOabeLT3QNWDqzDdPck?usp=sharing)  |  | 
+| 002 | Анализ данных в Pandas. Очистка и преобразования |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xXXBWDnXK9_N6X5F55Uj0Kah6EEZmm3g?usp=sharing)  |  | 
+| 003 | Графики и визуализация Seaborn |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sNjZVGEOV8zJUB0h9yZC7xWYhV6aT4HZ?usp=sharing)  |  |  
+| 004 | Регрессия. Линия, экспонента, полином |  ![](https://img.shields.io/badge/В%20разработке-brown) |   |   | 
+| 005 | Анализ данных. Кластеризация, Desigion Tree, SVM |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
+| 006 | О нейронных сетях. YOLO |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WnPk6cbNCq9VlUWw3OLtdyG6TbYk6PYH?usp=sharing)  |  |
+| 007 | Перцептрон. Строим на нём линейную и полиномиальную регрессию |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qQmrlzPdIMbQTh-JA5XsgPObwbD_cQ3B?usp=sharing)  |  |
+| 008 | Перцептрон. Диагностика ЭКГ |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kgEwRit4VszisgqHo-F1mx6QGeApkY1O?usp=sharing)  |  |
+| 009 | Перцептрон. Проблема выбора функций активации, расчёт числа слоёв |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
+| 010 | Перцептрон. Классификация MNIST |  ![](https://img.shields.io/badge/В%20разработке-brown) |
+| 011 | Работа с изображениями. Загрузка преобразование |  ![](https://img.shields.io/badge/В%20разработке-brown) |
+| 012 | Свёрточные сети. Основы |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10HK0G9yIEtdINHlyGu3jVdfvCsucCGO3?usp=sharing)  |  |
+| 013 | Глубокие свёрточные модели |  ![](https://img.shields.io/badge/В%20разработке-brown) |
+| 014 | Сегментация на изображениях |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KTbSO0A7_7l6JF-0q4ntMOGZ9_rNTPej?usp=sharing)  |  |
+| 015 | Экспорт моделей в ONNX/TFlite. Запуск на C# |  ![](https://img.shields.io/badge/В%20разработке-brown) |
 | 016 | Сети с памятью. LSTM. Анализ текста | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 | 
-| 017 | Генеративно-состязательные сети | ![](https://img.shields.io/badge/Готовится%20описание-orange) | 1 | 1 | 
+| 017 | Генеративно-состязательные сети |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pbHWMo9JJu_GPg963I6Rp_TvVwb1Qg07?usp=sharing)  |  |
 | 018 | Генетические алгоритмы | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 | 
 | 019 | EM-алгоритм | ![](https://img.shields.io/badge/В%20разработке-brown) |  |  | 
-|  E1 | Обучение простейщего классификатора | 1 | 1 | 1 | 
-|  E2 | Перенос модели на C++ | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 | 
+|  E1 | Обучение простейшего классификатора | 1 | 1 | 1 | 
+|  E2 | Перенос модели на C++ | ![](https://img.shields.io/badge/В%20разработке-brown) | 1 | 1 |
