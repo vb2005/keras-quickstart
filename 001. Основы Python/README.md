@@ -1,8 +1,5 @@
-# Знакомьтесь...
-
-![image.png](data:image/png;base64,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)
-
-Python — высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ.
+# Python
+Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ.
 
 ## Установка
 Для того, чтобы приступить к разработке протребуется интерпретатор языка: https://www.python.org/downloads/
@@ -16,7 +13,7 @@ Python — высокоуровневый язык программирован�
 
 Все работы данного курса предлагается (но вовсе не обязательно) выполнять в Google Colab. Это вирутальная среда выполнения, и уже написаны примеры работы с языком программирования. Со всеми ими я советую ознакомится.
 
-А еще Вы можете встретить символ ![red-ok-icon.png](data:image/png;base64,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) Он говорит о том, что в конце данного блока для Вас будет задание на самостоятельную работу. Их естественно все надо выполнить для получения зачёта по лабораторной работе. Исходный код из блока продублируйте в отчёт по лабораторной работе
+А еще Вы можете встретить значок ![](https://img.shields.io/badge/Задача-red) Он говорит о том, что в конце данного блока для Вас будет задание на самостоятельную работу. Их естественно все надо выполнить для получения зачёта по лабораторной работе. Исходный код из блока продублируйте в отчёт по лабораторной работе
 
 ## Основы языка
 
@@ -46,8 +43,6 @@ print(a)
 ```
 
 ## Типы данных
-
-![red-ok-icon.png](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAcySURBVHja7Jd7UFTXHce/97Wve3cBF9CFVYQFH4CpqSnVMSZRmxpbY0xrktFETRFr4/uN+CwSidoxEhO1xmcTq2msqWNtqmkGTY2JOLYxAiMgIE+BBXcXdu8+7z2nf/TaoRMwpGMn/+TOnDlz7znz+33u+Z3z/f0OQynFt/kw3wF8B0ApxdUJP3ww1igFVZSfRo95dFnE46713ri+g9XraxiO63F6VnHJgwVQZTkjcXb2xUELV8SC0kDbn042N+wr2qL65XdZveH/C0ACAZ1l1A/Opb91aHywoS5IIhGXyZFmlSvKA9X56076q2/lc5LUDIZ58ACUEDAsm5ex78hmcWg6Kct5kcrVVZX2OTlImJ2TTvyyvn5P0TXn2Q82MCx7nuGFvgFQVQEJRxhOr6dg2d6X3ufNsucsODvwl4ssDXt2OZt/dzCBNRqJ6pfbLCNH1Tg2FCQYk5Id7ksXvLd3vJof6fTsYnj+/gA0EuF1cfHbTGlDU7uulZxSg8FjrF7/lSNDgkG9NDzjfOah4497Pv/0TuXqxRaG5yWwrA9AGwn4O/momJbk1ett1omTRnZeK2mvWLlgCsNy17IuXO0ZgBICAHnpb7xdaP7ew05v+Q21bnvB+76K8vWcZJb/ex5dlbHnyGuGQUmu0tnPI9TeFs/qdAAQBnAXDFOjeNx3+k97boBj46tjXZ8Ut1etXzmJFYQbvQKoPu+EgfOXnLHP/ZXor67qMDnSiBoIWOt2Fp51nj29lDUY6hmOg9LVNXHQK0uO2ue+It7avLaj49yfB3CiZAagAGgA0ErCYUU/wBYacfjE9xmWs5blzNwbaG5cyAq6nkOg+v1SdNboc8N3H3jEc+Wyt2LlQiVm7GONySvyBugG2BLvHD96s+nQb3+jdHpqE2bM2T14ZV5qx/m/1N7anCtyJlMKwDgBtAMQQKlKQiHX0O1vJMaMeyK5Zuum684zp37MiVJ7j5uQKhHw5qhtmQeOLedEsbM0ewYfam2xUEWp1MXHtycvz7P1m/BkUrCxngSbGuTo0Y/GBpubGsrnz3Ir3i4bwws+AEateVXZp8RNmaambtxq7/joQ2f15tw5rMF48d5R/AqA6vfPcqzfsiv+6WdNtzascnZ89Fc7J0kUgJ9GIm6qKnW2F2bxgxYsi2UEwUbCIUPl6sWlnqufGzmjKRpAPAAKwE9CoZBh4KDaEYdPpCpdneayeS8VKh7PFkYQetYBEgwkRo8Z99mwnXsS2z88U1G9ZV0UZzLZAQYACAA3KO1SZZ/X8vAjzY5NhSltp04Em989zPJmyxAAes25QlXVxQpC2fCi/dFS5kOjKlYs+Nj92d+nciYx0LMSjs8CGGZR5v538k1pQ/nSl18o95bdiOMtUWaAGgBY7m18AJ0kGPDwUdEyjURsVFWt3dRNBdChyj5n0uJVSHjpF6nNRw+0Nuwtms5J0j97l+LxWaCEPJO8PHdv/LTnLP6aW+6arZsqfGVfGjlRGgKGMWtxBQAvADclqoFhWBEMowfAa2MhVZbbY8Y+Vjvs9b0jvV9+wd9cNn8VpWQfw3JfkwsIAVGUuQkzZ28aOH9JPFS1q27Xtqq20ycZhueTGEFnBOAE4AdgBhALQNScc5p4dfJR0aWZB47FsoLgKM158YNwR/tMVqcjfcuGlEL1y6Ok9BEFKbmbRovD0lXXxY/b69/c2RZsanRzoigCsGmNAmC18AiglKiBQNmQgh0R65OTR1WuWfyF65PiCZwoeXqT8F6lmAQDJtZoWp+0aMWC/s8+b4q4OlprtxdU3S3+Wz/OZLIwHOfTHFsBmAAIqs/njp82vd6xLn9oy4l35Lqi7T/jROnS/ZLY/XOBqoCGw09ZJ07aOHj52ocEayzu/P5oTdPBffUkFLSxBoNZg4gjoaBgHJzSPOLwe1LgdrWhfGH2Fqqohb0VIt8oHas+n1VvS1ievGZDdszYx83yzfLW2h0Flb7yGxwnikMoRTLDoCv9zYOyOCwjoTR7xkV/ddVk1mAIfl0a73M9QCJhgNAp9pfnbbXPWziChMMdjft3V7S+f9yq+LpSklfkuRNmzTXXvf5aqOW9Yz/iJOl6X+qIb1aQEALV77dHZY3Z4cj79XR9op33XLnc4rnyKTt4WW6069IFVK1dtpTV6d/uXvU8OID/JCuZ1cX1X5qyZmNezLgndABYTWqPBJsbs1mdvs+2+grA4t96zGrnXaWRSIRS8pO4yVM3xD/z8xjn6T+GnWdPP82ZTA3dJfne2vUFIB3AVM0JBZAGoJ/2zgIQAERrIDwABpS6STCQCpaLYVimgRF09RqgHkCnJssEgARABuDRbDcBuAzgH1nFJa57AHkAcgFE/S93gW4xpxpkj7sIQECDjACYl1Vc8ofuIbABcGhnW6f1sdrfx2oGeM2BQes7tXEGgLsbhAHAXQAuzWkYQIv2zaityO2s4hL6rV/N/jUAYFK87hswWEAAAAAASUVORK5CYII=)
 
 *Предлагаю кратко с ними ознакомится. В целом, они идентичны C++*
 
@@ -112,13 +107,12 @@ print(D['id'])
 ``` python
 print(S)
 ```
-
+![](https://img.shields.io/badge/Задача%201-red)
 ``` python
 # Задание 1. Выведите содержимое B, L, T, S, D. Объясните, почему в S только 2 элемента
 ```
 
 ## Математические операции
-![red-ok-icon.png](data:image/png;base64,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)
 
 Помимо классических + - * / % язык Python предлагает операции:
 
@@ -157,6 +151,7 @@ print("{0} in binary {0:08b}   in hex {0:02x} in octal {0:02o}".format(z))
 print('Переменная из первого блока кода:', b)
 ```
 
+![](https://img.shields.io/badge/Задача%202-red)
 ``` python
 # Задание №2. Вычислить D, по формуле: D = b²-4*a*c
 ```
@@ -212,8 +207,6 @@ if (True and not False or True):
   print('???')
 ```
 
-![red-ok-icon.png](data:image/png;base64,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)
-
 Синтаксис else if в Python более лакончиный, чем в с++:
 
 ``` python
@@ -226,6 +219,7 @@ else:
     print("Доступ запрещен")
 ```
 
+![](https://img.shields.io/badge/Задача%203-red)
 ``` python
 # Задание №3. в зависимости от значения D вывести:
 # Корней нет, если D<0
@@ -324,7 +318,6 @@ print(data.isnumeric())
 
 **И еще кое-что :)**
 
-![red-ok-icon.png](data:image/png;base64,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)
 
 **strip**(): удаляет начальные и конечные пробелы из строки
 
@@ -357,6 +350,7 @@ names = 'У нас работают: ' + delimiter.join(arr)
 print(names)
 ```
 
+![](https://img.shields.io/badge/Задача%204-red)
 ``` python
 # Задание №4. Используя строки, циклы и словарь посчитайте сколько раз встречается каждая из букв
 # в палиндроме: "А роза упала на лапу Азора"
@@ -484,63 +478,310 @@ else:
   print('non equal')
 ```
 
-``` python
+### Неизменяемая классика для списка:
+**append(item)**: добавляет элемент item в конец списка
 
+**insert(index, item)**: добавляет элемент item в список по индексу index
+
+**remove(item)**: удаляет элемент item. Удаляется только первое вхождение элемента. Если элемент не найден, генерирует исключение ValueError
+
+**clear()**: удаление всех элементов из списка
+
+**index(item)**: возвращает индекс элемента item. Если элемент не найден, генерирует исключение ValueError
+
+**pop([index])**: удаляет и возвращает элемент по индексу index. Если индекс не передан, то просто удаляет последний элемент.
+
+**count(item)**: возвращает количество вхождений элемента item в список
+
+**sort([key])**: сортирует элементы. По умолчанию сортирует по возрастанию. Но с помощью параметра key мы можем передать функцию сортировки.
+
+**reverse()**: расставляет все элементы в списке в обратном порядке
+
+![](https://img.shields.io/badge/Задача%205-red)
+``` python
+# Задание №5. Решето Эратосфена.
+# В списке A оставьте только простые числа
+
+A = list(range(1,1000))
+# Your code here...
+print(A)
+```
+
+## Функции
+Функции представляют блок кода, который выполняет определенную задачу и который можно повторно использовать в других частях программы. Формальное определение функции:
+
+```
+def имя_функции ([параметры]):
+    инструкции
 ```
 
 ``` python
+def say_hello():
+    print("Hello")
 
+say_hello()
+```
+Функции в Python очень гибкая конструкция, посмотрите внимательно на примеры ниже:
+``` python
+# Нужно 2 значения вывести? Пожалуйста
+def minmax(A):
+  return (min(A), max(A))
+
+(min_val, max_val) = minmax(numbers)
+print(min_val, max_val)
 ```
 
 ``` python
+# Разные типы? Никаких проблем
+def maxval(A):
+  a = max(A)
+  if (a<0):
+    return 'Всё плохо...'
+  else:
+    return a
 
+res = maxval([-10,-30])
+print(res)
 ```
 
 ``` python
+# Возвращать результат или нет? Решать Вам
+def maxval2(A):
+  a = max(A)
+  if (a>0):
+    return a
 
+res = maxval2([-10,-30])
+print(res)
+```
+Не забываем и про зоны видимости. Использовать фукнцию можно только после её объявления и/или вызова. Если функция была описана и интерпретирована, то она может быть использована.
+
+Переменные, объявленные внутри функции видны только там, переменные снаружи доступны везде
+``` python
+# Пропустите эту строку кода и выполните следующую
+def say():
+    stroka = "Hi!"
+    print(stroka)
 ```
 
 ``` python
-
+say()
 ```
 
 ``` python
+print(stroka)
+```
 
+## Исключения
+Для обработки исключений в Python имеется блок **try except**.
+
+Для генерации исключений (если пригодится) используется ключевое слово **throw**
+
+``` python
+try:
+    number1 = int(input("Введите первое число: "))
+    number2 = int(input("Введите второе число: "))
+    print("Результат деления:", number1/number2)
+except ValueError:
+    print("Преобразование прошло неудачно")
+except ZeroDivisionError:
+    print("Попытка деления числа на ноль")
+except Exception:
+    print("Общее исключение")
+print("Завершение программы")
 ```
 
 ``` python
+raise Exception("Ну, всё, приплыли...")
+```
 
+## Модули
+Для того, чтобы присоединить сторонние файлы и библиотеки, в Python есть оператор **import**.
+Рассмотрим присоедение и использование втроенных модулей numpy, datetime, random:
+``` python
+# Подключаем к проекту библиотеку целиком
+import random
+
+number = random.random()  # значение от 0.0 до 1.0
+print(number)
 ```
 
 ``` python
+# Или отдельные её компоненты
+from math import pi, cos
 
+print(cos(pi))
 ```
 
 ``` python
+from datetime import date
 
+today = date.today()
+print(today)
 ```
 
 ``` python
+# Подключаем библиотеку Numpy, для удобства изменяя её пространство имён на np
+import numpy as np
 
+# Создаём массив 3x2 случайных элементов
+X = np.random.rand(3,2)
+print(X)
+```
+
+![](https://img.shields.io/badge/Задача%206-red)
+``` python
+# Задание №6. Создайте в текстовом редакторе файл logger.py
+# Добавьте в него метод meow(), выводящий на экран текст произвольного содержания.
+# Перетащите этот файл в окно "Файлы"
+# Запустите следующий код:
+import logger as lg
+lg.meow()
+```
+
+### А если нужно что-то еще?
+Установить дополнительные пакеты из сети Интернет можно при помощи утилиты pip.
+
+Для этого в консоли введите команду:
+`pip install <имя_модуля>`
+
+## Файлы
+В Python есть десятки способов работы с файлами. Рассмотрим наиболее классические из них.
+Прежде всего, файл необходимо открыть. В функции open указывается путь к файлу и модификаторы доступа:
+
+**r (Read)**. Файл открывается для чтения. Если файл не найден, то генерируется исключение FileNotFoundError
+
+**w (Write)**. Файл открывается для записи. Если файл отсутствует, то он создается. Если подобный файл уже есть, то он создается заново, и соответственно старые данные в нем стираются.
+
+**a (Append)**. Файл открывается для дозаписи. Если файл отсутствует, то он создается. Если подобный файл уже есть, то данные записываются в его конец.
+
+**b (Binary)**. Используется для работы с бинарными файлами. Применяется вместе с другими режимами - w или r.
+
+``` python
+with open("workers.txt", "w") as somefile:
+    somefile.write(delimiter.join(arr))
 ```
 
 ``` python
+with open("workers.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
 
+### Файлы CSV
+Отдельно следует сказать о формате CSV, который часто применяется в задачах DataScienes. Попробуем создать такой файл, и прочитать его. Для этого потребуется библиотека CSV:
+
+``` python
+import csv
+
+FILENAME = "users.csv"
+
+users = [
+    ["Tom", 28],
+    ["Alice", 23],
+    ["Bob", 34]
+]
+
+# Запись пользователей в CSV
+with open(FILENAME, "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerows(users)
+
+# Дозапись еще одного пользователя
+with open(FILENAME, "a", newline="") as file:
+    user = ["Sam", 31]
+    writer = csv.writer(file)
+    writer.writerow(user)
+```
+
+Чтение файлов осуществляется аналогичным способом:
+
+``` python
+with open(FILENAME, "r", newline="") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row[0], " - ", row[1])
+```
+### Работа с файловой системой
+Модуль **os** предоставляет множество функций для работы с операционной системой, причём их поведение, как правило, не зависит от ОС, поэтому программы остаются переносимыми.
+``` python
+import os
+
+os.mkdir("hello")
+os.rmdir("hello")
 ```
 
 ``` python
-
+if os.path.exists("users.csv"):
+  os.rename("users.csv", "db.csv")
 ```
+## Массивы Numpy
+**Numpy** - это базовый пакет научных вычислений Python, предоставляющий объект многомерного массива и различные производные объекты (такие как маскированные массивы и матрицы) и ряд процедур для быстрых операций с массивами, включая математические, логические, операции с фигурами, сортировку, Выбор, ввод / вывод, дискретное преобразование Фурье, линейная алгебра, основные статистические операции, случайное моделирование и т. д.
+
+**Numpy сочетает в себе эффективность C и простоту Python:**
+
+
+1.   Так же быстро, как и поэлементная операция C: это режим по умолчанию для numpy, завершаемый предварительно скомпилированным кодом C;
+2.   Проще, чем Python: идиоматический синтаксис Numpy более лаконичен, чем встроенный синтаксис Python
+
+Начинается всё с подключения библиотеки:
 
 ``` python
-
+import numpy as np
 ```
-
+#### Заполнение массива
 ``` python
-
+# Массив нулей:
+a = np.zeros(3)
+print(a)
 ```
-
 ``` python
-
+# Массив единиц:
+b = np.ones([3,3])
+print(b)
 ```
+``` python
+# Массив случайых чисел:
+c = np.random.random([3,3])
+print(c)
+```
+Выполнение поэлементных (+ - * /) операций с массивами:
+``` python
+print(b + c)
+print(b * c)
+```
+Индексация и срезы работают также, как и List:
+``` python
+print(a[0])
+print(b[0])
+print(b[0,0])
+print(b[:2,:2])
+```
+Агрегатные функции могут работать как для массива в целом, так и для строк/столбцов
+``` python
+print('Максимум в массиве', c.max())
+print('Максимум в строках',c.max(axis=1))
+print('Максимум в столбцах',c.max(axis=0))
+```
+
+![](https://img.shields.io/badge/Задача%207-red)
+``` python
+# Задание №7. Создайте массив размерностью 10х10 случайных элементов в диапазоне от 10 до 20
+# Найдите минимум среди максимальных значений в строках
+```
+
+## Самостоятельная работа
+**Задача 0.** Внимательно изучить практический материал, выполнить все 7 мини-кейсов.
+
+**Задача 1.** Написать функцию square, принимающую 1 аргумент — сторону квадрата, и возвращающую 3 значения (с помощью кортежа): периметр квадрата, площадь квадрата и диагональ квадрата.
+
+**Задача 2.** Пользователь делает вклад в размере a рублей сроком на years лет под 10% годовых (каждый год размер его вклада увеличивается на 10%. Эти деньги прибавляются к сумме вклада, и на них в следующем году тоже будут проценты). Написать функцию bank, принимающая аргументы a и years, и возвращающую сумму, которая будет на счету пользователя.
+
+## Контрольные вопросы
+1. Язык программирования Python
+2. Типы данных. Контейнерные типы
+3. Установка и подключение библиотек
+4. Условный оператор и его синтаксис
+5. Операторы цикла и их синтасис
+6. Назначение и возможности библиотеки Numpy
 
