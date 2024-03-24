@@ -53,5 +53,5 @@
 | Номер работы | Название | Статус | Ссылка на Google Colab | Ссылка на Github |
 | --- | --- | --- | --- | --- | 
 |  E1 | Обучение простейшего классификатора | ![](https://img.shields.io/badge/Доступен-3.1-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WnPk6cbNCq9VlUWw3OLtdyG6TbYk6PYH?usp=sharing)  | ![https://github.com/vb2005/keras-quickstart/tree/main/E1.%20Обучение%20простейшего%20классификатора](https://img.shields.io/badge/Перейти-gray?logo=github) |
-|  E2 | Перенос модели на C++ | ![](https://img.shields.io/badge/В%20разработке-brown) |   |   |
+|  E2 | Перенос модели на C++ |  ![](https://img.shields.io/badge/Демо-0.2-yellow) |   |  ![https://github.com/vb2005/keras-quickstart/tree/main/E3.%20Детектор%20объектов%20на%20YOLO](https://img.shields.io/badge/Перейти-gray?logo=github) |
 |  E3 | Ultralytics -- Детектор объектов на YOLO |  ![](https://img.shields.io/badge/Доступен-1.1-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WnPk6cbNCq9VlUWw3OLtdyG6TbYk6PYH?usp=sharing)  |  ![https://github.com/vb2005/keras-quickstart/tree/main/E3.%20Детектор%20объектов%20на%20YOLO](https://img.shields.io/badge/Перейти-gray?logo=github) |
