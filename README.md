@@ -27,12 +27,13 @@
 
 | Номер работы | Название | Статус | Ссылка на Google Colab | Ссылка на Github |
 | --- | --- | --- | --- | --- | 
-| 000 | Установка необходимых библиотек | ![](https://img.shields.io/badge/Доступен-1.0-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-q4hGq6QODhrjq6yAVCpuDRdI8hkKzBb?usp=sharing) |  | 
+| 000 | Установка необходимых библиотек | ![](https://img.shields.io/badge/Доступен-1.0-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-q4hGq6QODhrjq6yAVCpuDRdI8hkKzBb?usp=sharing) | [![Colab](https://img.shields.io/badge/Перейти-gray?logo=github)](https://github.com/vb2005/keras-quickstart/tree/main/001.%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Python) | 
 | 001 | Основы разработки на Python |  ![](https://img.shields.io/badge/Доступен-1.3-color) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QMoYV_dpBdHvVEOabeLT3QNWDqzDdPck?usp=sharing)  |  | 
 | 002 | Анализ данных в Pandas. Очистка и преобразования |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xXXBWDnXK9_N6X5F55Uj0Kah6EEZmm3g?usp=sharing)  |  | 
 | 003 | Графики и визуализация Seaborn |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sNjZVGEOV8zJUB0h9yZC7xWYhV6aT4HZ?usp=sharing)  |  |  
-| 004 | Регрессия. Линия, экспонента, полином |  ![](https://img.shields.io/badge/В%20разработке-brown) |   |   | 
-| 005 | Анализ данных. Кластеризация, Desigion Tree, SVM |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
+| 004 | Добыча данных |  ![](https://img.shields.io/badge/В%20разработке-brown) |  |  |  
+| 005 | Регрессия. Линия, экспонента, полином |  ![](https://img.shields.io/badge/В%20разработке-brown) |   |   | 
+| 006 | Анализ данных. Кластеризация, Desigion Tree, SVM |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
 | 007 | Перцептрон. Строим на нём линейную и полиномиальную регрессию |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qQmrlzPdIMbQTh-JA5XsgPObwbD_cQ3B?usp=sharing)  |  |
 | 008 | Перцептрон. Диагностика ЭКГ |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kgEwRit4VszisgqHo-F1mx6QGeApkY1O?usp=sharing)  |  |
 | 009 | Перцептрон. Проблема выбора функций активации, расчёт числа слоёв |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  |  |
