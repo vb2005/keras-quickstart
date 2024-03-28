@@ -45,7 +45,7 @@
 | 015 | Экспорт моделей в ONNX/TFlite. Запуск на C# |  ![](https://img.shields.io/badge/В%20разработке-brown) |
 | 016 | Сети с памятью. LSTM. Анализ текста | ![](https://img.shields.io/badge/В%20разработке-brown) |  |  | 
 | 017 | Генеративно-состязательные сети |  ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pbHWMo9JJu_GPg963I6Rp_TvVwb1Qg07?usp=sharing) | [![Colab](https://img.shields.io/badge/Перейти-gray?logo=github)](https://github.com/vb2005/keras-quickstart/tree/main/017.%20%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE-%D1%81%D0%BE%D1%81%D1%82%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%8B%D0%B5%20%D1%81%D0%B5%D1%82%D0%B8.%20SRGAN) | 
-| 018 | Генетические алгоритмы | ![](https://img.shields.io/badge/В%20разработке-brown) |   |   | 
+| 018 | Генетические алгоритмы ![](https://img.shields.io/badge/Демо-0.1-yellow) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/144P2vQgBZYnhnr4ZJJHFzUi8niWHdFAl?usp=sharing) | [![Colab](https://img.shields.io/badge/Перейти-gray?logo=github)](https://github.com/vb2005/keras-quickstart/tree/main/017.%20%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE-%D1%81%D0%BE%D1%81%D1%82%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%8B%D0%B5%20%D1%81%D0%B5%D1%82%D0%B8.%20SRGAN) | 
 | 019 | EM-алгоритм | ![](https://img.shields.io/badge/В%20разработке-brown) |  |  | 
 
 Работы вне рамок основного курса
