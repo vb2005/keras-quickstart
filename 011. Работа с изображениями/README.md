@@ -166,7 +166,7 @@ cv2.imshow('demo', img_test)
 def visualize(img, h_matrix):
   h_matrix = np.array(h_matrix, dtype = 'float32')
   img_test = cv2.warpPerspective(img, h_matrix, (1000,1000))
-  cv2_imshow(img_test)
+  cv2.imshow('demo',img_test)
 ```
 
 ### Исходная матрица
@@ -209,6 +209,10 @@ matrix = [[2, 0, 0],
 
 visualize(img, matrix)
 ```
+
+### Перенос
+Пример матрицы для переноса изображения. Смещение определяется в абсолютных значениях
+
 $$
   H_{translate} =
   \left( {\begin{array}{cc}
@@ -217,8 +221,8 @@ $$
     0 & 0 & 1 \\
   \end{array} } \right)
 $$
+
 ``` python
-# Пример матрицы, для переноса
 # На 100 пикс. по оси X
 # На -50 пикс. по оси Y
 matrix = [[1, 0, 100],
@@ -227,15 +231,212 @@ matrix = [[1, 0, 100],
 
 visualize(img, matrix)
 ```
+### Наклон
+Пример матрицы для наклона. Для получения адекватного результата старайтесь использовать маленькие значения
+
+$$
+  H_{slant} =
+  \left( {\begin{array}{cc}
+    1 & t_{x} & 0 \\
+    t_{y} & 1 & 0 \\
+    t_{x} & t_{y} & 1 \\
+  \end{array} } \right)
+$$
 
 ``` python
+# Пример матрицы, для наклона (для удобства, вместе с переносом)
+# На 0.05%  по оси X
+matrix = [[1,      0.0005,   300],
+          [0,           1,   300],
+          [0.0005,      0,     1]]
 
+visualize(img, matrix)
 ```
 
-``` python
+### Поворот на произвольный угол
+Пример матрицы для поворота изображения.
 
+$$
+  H_{rotate} =
+  \left( {\begin{array}{cc}
+    cos(a) & -sin(a) & 0 \\
+    sin(a) & cos(a) & 0 \\
+    0 & 0 & 1 \\
+  \end{array} } \right)
+$$
+
+``` python
+from math import cos, sin, pi
+# Пример матрицы, для поворота (для удобства, вместе с переносом)
+angle = 45
+
+# Перевод в радианы
+a = angle / 180 * pi
+
+matrix = [[cos(a), -sin(a),   300],
+          [sin(a),  cos(a),   300],
+          [0,            0,     1]]
+
+visualize(img, matrix)
 ```
 
+## Блок 5. Выделение значимых характеристик изображения
+### Фильтр Собеля
+``` python
+# Работа осуществляется только в одноканальном режиме
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+# Собель - это частная производная с шагом ksize по выбранной переменной (x, y) или для всех сразу
+sobelx = cv2.Sobel(src=img_gray, ddepth=cv2.CV_64F, dx=1, dy=0, ksize=5) / 10
+sobely = cv2.Sobel(src=img_gray, ddepth=cv2.CV_64F, dx=0, dy=1, ksize=5) / 10
+sobelxy = cv2.Sobel(src=img_gray, ddepth=cv2.CV_64F, dx=1, dy=1, ksize=5)
+
+titles = ['Original Image','X','Y','XY']
+images = [img_gray, sobelx, sobely, sobelxy]
+
+for i in range(4):
+ plt.subplot(2,2,i+1),plt.imshow(images[i],'gray',vmin=0,vmax=255)
+ plt.title(titles[i])
+ plt.xticks([]),plt.yticks([])
+
+plt.show()
+```
+
+### Фильтр Canny
+Фильтр Canny позволяет получить более тонкие контуры, в сравнении с Sobel, за счёт применения минимизации немаксимумов
+``` python
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+img_canny = cv2.Canny(img,300,300)
+cv2.imshow('demo', img_canny)
+```
+
+### Сглаживающие фильтры
+Фильтр, в котором все значения внутри матрицы равны называется сглаживающи
+``` pythonм
+kernel = np.ones((5,5),np.float32)/25
+print(kernel)
+img_test = cv2.filter2D(img,-1,kernel)
+cv2.imshow('demo', img_test)
+```
+
+Для него существует специальный метод:
+``` python
+img_test = cv2.blur(img,(5,5))
+cv2.imshow('demo', img_test)
+```
+
+Обратите внимание на следующий фильтр.
+Что напоминает результат его работы?
+``` python
+kernel = [[1, 0, -1],
+          [1, 0, -1],
+          [1, 0, -1]]
+kernel = np.array(kernel, dtype = 'float32')
+img_test = cv2.filter2D(img_gray,-1,kernel)
+cv2.imshow('demo', img_test)
+```
+
+### Фильтр Гаусса
+Данный фильтр намного лучше размывает изображения за счёт более низких значений по углам квадратной матрицы. Под капотом он использует распределение Гаусса
+
+$$G_i= \alpha *e^{-(i-( \texttt{ksize} -1)/2)^2/(2* \texttt{sigma}^2)},$$
+
+``` python
+img_test = cv2.GaussianBlur(img,(5,5),0)
+cv2.imshow('demo',  img_test)
+```
+
+### Медианный  фильтр
+Пример вызова меданного фильтра. Данный фильтр записывает в качестве результата медианное значение из окрестностей n*n. Данный фильтр отлично удаляет импульсные помехи
 ``` python
 
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+for i in range(5000):
+  x = random.randint(0, img_gray.shape[0]-1)
+  y = random.randint(0, img_gray.shape[1]-1)
+  img_gray[x,y] = 0
+  x = random.randint(0, img_gray.shape[0]-1)
+  y = random.randint(0, img_gray.shape[1]-1)
+  img_gray[x,y] = 255
+
+img_test = cv2.medianBlur(img_gray,3)
+cv2.imshow('demo', img_gray)
+cv2.imshow('demo', img_test)
+```
+
+## Блок 6. Генерация изображений
+Небольшой гайд по созданию градиентных изображений с использованием тригонометрии
+
+Создадим холст для творчества
+``` python
+img = np.zeros((240,320,3),dtype='uint8')
+```
+
+Сделаем все пиксели одним цветом:
+``` python
+for i in range(img.shape[0]):
+  for j in range(img.shape[1]):
+      img[i,j,0] = 255
+      img[i,j,1] = 255
+      img[i,j,2] = 0
+
+cv2.imshow('demo', img)
+```
+
+Заполняем случайным шумом:
+``` python
+for i in range(img.shape[0]):
+  for j in range(img.shape[1]):
+    for с in range(img.shape[2]):
+      img[i,j,с] = np.random.randn() % 255
+
+cv2.imshow('demo', img)
+```
+
+Добавляем градиент:
+``` python
+for i in range(img.shape[0]):
+  for j in range(img.shape[1]):
+      img[i,j,0] = i
+      img[i,j,1] = 0
+      img[i,j,2] = j
+
+cv2.imshow('demo', img)
+```
+
+В прошлом примере произошёл выход за пределы формата uint8. Исправить диапазон значений можно через функции, которые имеют ограниченную ОДЗ, например, sin или cos
+``` python
+for i in range(img.shape[0]):
+  for j in range(img.shape[1]):
+    img[i,j,0] = cos((j+i) / 180 * 3.14) * 128 + 127
+    img[i,j,1] = 0
+    img[i,j,2] = 0
+
+cv2.imshow('demo',img)
+```
+
+А теперь попробуем задействовать все каналы
+``` python
+for i in range(img.shape[0]):
+  for j in range(img.shape[1]):
+    img[i,j,0] = cos((j+i)   / 180 * 3.14) * 128 + 127
+    img[i,j,1] = cos((2*i)   / 180 * 3.14) * 128 + 127
+    img[i,j,2] = cos((0.5*j) / 180 * 3.14) * 128 + 127
+
+cv2.imshow('demo',img)
+```
+
+При этом можно работать в другом цветовом пространстве:
+``` python
+img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+for i in range(img.shape[0]):
+  for j in range(img.shape[1]):
+    img[i,j,0] = cos(j / 180 * 3.14) * 90 + 90
+    img[i,j,1] = 255
+    img[i,j,2] = 255
+
+img = cv2.cvtColor(img, cv2.COLOR_HSV2BGR)
+
+cv2.imshow('demo',img)
 ```
