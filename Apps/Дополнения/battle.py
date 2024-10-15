@@ -8,7 +8,7 @@ def sendResults(user, groupId, taskId, model, history):
   weights = model.count_params()
 
   url = 'https://dnn.vb2005.ru/api/SendResults'
-  modelInfo = {"validLoss" : valloss, "trainLoss" : trainloss, "lossFunc": loss, "epochs" : epochs, "weights" : weights}
+  modelInfo = {"validLoss" : valloss, "trainLoss" : trainloss, "lossFunc": loss, "epochs" : epochs, "weightsCount" : weights}
   userResult = {"username" : user, "groupId" : groupId, "taskId" : taskId, "modelInfo" : modelInfo}
   x = requests.post(url, json = userResult)
   if (x.status_code == 200):
