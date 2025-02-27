@@ -9,7 +9,7 @@
 import pandas as pd
 import numpy as np
 import seaborn as sns
-df = pd.read_csv("weather.csv", encoding='utf-8', delimiter=';')
+df = pd.read_csv("weather.csv", encoding='utf-8', delimiter=';', index_col=False)
 ```
 
 Посмотрим на сами данные
