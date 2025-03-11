@@ -37,7 +37,7 @@
 | 007 | Перцептрон. Строим на нём линейную и полиномиальную регрессию |  ![](https://img.shields.io/badge/В%20разработке-brown) | [![](colab.svg)](https://colab.research.google.com/drive/1qQmrlzPdIMbQTh-JA5XsgPObwbD_cQ3B?usp=sharing)  | |
 | 008 | Перцептрон. Диагностика ЭКГ |  ![](https://img.shields.io/badge/Доступен-1.1-color) 								    | [![](colab.svg)](https://colab.research.google.com/drive/1kgEwRit4VszisgqHo-F1mx6QGeApkY1O?usp=sharing)  |  [![](github.svg)](https://github.com/vb2005/keras-quickstart/tree/main/008.%20Перцептрон.%20Диагностика%20ЭКГ) |
 | 009 | Перцептрон. Выбор функций активации, расчёт числа слоёв | ![](https://img.shields.io/badge/В%20разработке-brown) 		| [![](colab.svg)](https://colab.research.google.com/drive/1MlOccDdNIeWIoXDyVDUd07XjAj3CacIf?usp=sharing)  | |
-| 010 | Перцептрон. Классификация MNIST | ![](https://img.shields.io/badge/Демо-0.1-yellow) 									| [![](colab.svg)](https://colab.research.google.com/drive/1gOhHZ4FAfVg1hnr5XTOBI3ZGo7pkdu6c?usp=sharing)  | |
+| 010 | Перцептрон. Классификация MNIST | ![](https://img.shields.io/badge/Демо-0.1-yellow) 									| [![](colab.svg)](https://colab.research.google.com/drive/1gOhHZ4FAfVg1hnr5XTOBI3ZGo7pkdu6c?usp=sharing)  |  [![](github.svg)](https://github.com/vb2005/keras-quickstart/tree/main/010.%20Основы%20классификации) |
 | 011 | Работа с изображениями. Загрузка преобразование |  ![](https://img.shields.io/badge/Демо-0.1-yellow) 					| [![](colab.svg)](https://colab.research.google.com/drive/1zn-IJdrMBn9KHqrtmpUw-cRzrY9nOBRi?usp=sharing)  |  [![](github.svg)](https://github.com/vb2005/keras-quickstart/tree/main/011.%20Работа%20с%20изображениями) |
 | 012 | Свёрточные сети. Основы |  ![](https://img.shields.io/badge/Доступен-2.1-color) 										| [![](colab.svg)](https://colab.research.google.com/drive/10HK0G9yIEtdINHlyGu3jVdfvCsucCGO3?usp=sharing)  |  [![](github.svg)](https://github.com/vb2005/keras-quickstart/tree/main/012.%20Свёрточные%20сети) |
 | 013 | Глубокие свёрточные модели |  ![](https://img.shields.io/badge/В%20разработке-brown) 									| [![](colab.svg)](https://colab.research.google.com/drive/1-TWaWPpUeCXIiLQvDKXJiYPzlq1JFUCi?usp=sharing)  | |
@@ -47,7 +47,6 @@
 | 017 | Генеративно-состязательные сети |  ![](https://img.shields.io/badge/Демо-0.1-yellow) 									| [![](colab.svg)](https://colab.research.google.com/drive/1pbHWMo9JJu_GPg963I6Rp_TvVwb1Qg07?usp=sharing)  |  [![](github.svg)](https://github.com/vb2005/keras-quickstart/tree/main/017.%20Генеративно-состязательые%20сети.%20SRGAN) |
 | 018 | Генетические алгоритмы | ![](https://img.shields.io/badge/Демо-0.1-yellow) 												| [![](colab.svg)](https://colab.research.google.com/drive/144P2vQgBZYnhnr4ZJJHFzUi8niWHdFAl?usp=sharing)  | |
 | 019 | Языковые модели. YaGPT | ![](https://img.shields.io/badge/В%20разработке-brown) 										| | | 
-
 
 
 Работы вне рамок основного курса
