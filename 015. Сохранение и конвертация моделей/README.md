@@ -118,5 +118,11 @@ using Microsoft.ML.OnnxRuntime.Tensors;
 float x = 10;
 float y = Predict(x);
 
+
 Console.WriteLine(y);
 ```
+
+# Самостоятельная работа
+## Задание №1
+![](https://img.shields.io/badge/Задача%201-red)
+Преобразуйте любую сверточную модель в формат ONNX, а также запустите её на C# с поддержкой GPU CUDA или DirectML.
